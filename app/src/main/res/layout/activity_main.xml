@@ -6,13 +6,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="Customised radio button"
-        android:textSize="25sp" />
+
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -44,12 +38,5 @@
     </RadioGroup>
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="onclickbuttonMethod"
-        android:text="Show Selected"
-        android:textSize="20sp" />
+
 </LinearLayout>
